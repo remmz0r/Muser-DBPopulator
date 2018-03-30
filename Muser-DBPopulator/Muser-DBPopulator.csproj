@@ -43,7 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Muser.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Muser-DBPopulator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -52,6 +52,7 @@
   <ItemGroup>
     <Content Include="Properties\firstNames.txt" />
     <Content Include="Properties\lastNames.txt" />
+    <Content Include="Properties\wordFile.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
